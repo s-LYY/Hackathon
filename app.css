@@ -9,8 +9,23 @@ header{
     background-color: #1c181d;
     color: #616161;
     width: 100%;
-    padding: 20px;
+    padding: 8px;
     /* height: 100vh; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#nav-input{
+    width: 420px;
+    background-image: url('https: //crushingit.tech/hackathon-assets/icon-search.svg');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding: 10px 30px 10px 10px;
+    height: 40px;
+    border-radius: 10px;
+    background: #322f33;
 }
 #component{
     display: flex;
